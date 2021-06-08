@@ -1,0 +1,13 @@
+<form class="form">
+  <h1 class="form_title">Вход</h1>
+  <div class="form_grup">
+    <label class="form_label"></label>
+    <input class="form_input" placeholder="Логин" type="text" [(ngModel)]="loginForm.login" required />
+  </div>
+  <div class="form_grup">
+    <label class="form_label"></label>
+    <input class="form_input" placeholder="Пароль" type="password" [(ngModel)]="loginForm.password" required />
+  </div>
+
+  <button class="form_button" (click)="printForm()">Войти</button>
+</form>
