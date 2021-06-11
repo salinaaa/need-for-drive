@@ -9,6 +9,7 @@ import { FormComponent } from './form/form.component';
 import { FormsModule } from '@angular/forms';
 import { SliderComponent } from './slider/slider.component';
 import { NgImageSliderModule } from 'ng-image-slider';
+import { MenuComponent } from './menu/menu.component';
 
 const routes: Routes = [{ path: 'slider', component: SliderComponent }];
 
@@ -17,6 +18,7 @@ const routes: Routes = [{ path: 'slider', component: SliderComponent }];
     AppComponent,
     FormComponent,
     SliderComponent,
+    MenuComponent,
   ],
   imports: [
     BrowserModule,
