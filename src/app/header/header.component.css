@@ -1,0 +1,80 @@
+header{
+    width: 100%;
+    background: #f1f1f1 url(https://1757140519.rsc.cdn77.org/static/v3/img/products/logo.png) no-repeat 0.5% 40%;
+    height: 130px;
+   }
+   #search {
+	width: 235px;
+	height: 29px;
+}
+
+.container{
+    width: 300px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+    margin-left: 250px;
+  }
+  .container input#search{
+    min-width: 1300px;
+    min-height: 10px;
+    background: #ffffff;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: #ffffff;
+    padding-left: 45px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-top: 45px;
+  }
+
+  .container input#search::-webkit-input-placeholder {
+    color: #ffffff;
+ }
+  
+ .container input#search:-moz-placeholder { /* Firefox 18- */
+    color: #ffffff;  
+ }
+  
+ .container input#search::-moz-placeholder {  /* Firefox 19+ */
+    color: #ffffff;  
+ }
+  
+ .container input#search:-ms-input-placeholder {  
+    color: #ffffff;  
+ }
+ .container .icon{
+    position: absolute;
+    top: 50%;
+    margin-left: 17px;
+    margin-top: 17px;
+    z-index: 1;
+    color: #ffffff;
+    margin-top: 60px;
+  }
+
+  .container input#search{
+    width: 300px;
+    height: 50px;
+    background: #2b303b;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: #ffffff;
+    padding-left: 45px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-top: 45px;
+  }
+
+.avatar {
+    vertical-align: middle;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-left: 150px;
+    margin-top: 30px;
+}
