@@ -1,9 +1,3 @@
-.wrapper {
-    height: 100%;
-    width: 100%;
-    margin: auto;
-    position: relative;
-  }
   .header {
     width: 100%;
     position: fixed;
@@ -29,10 +23,12 @@
   }
   .footerphone {
     margin-right: 20px;
-    margin-top: 10px;
-    min-height: 50px;
+    margin-top: 20px;
+    text-align: left;
   }
   .footercopyright {
     margin-right: 20px;
+    margin-top: -20px;
+    text-align: right;
   }
   
