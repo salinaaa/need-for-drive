@@ -4,25 +4,25 @@ const slides = [
   {
     title: 'Бесплатный парковка',
     descr: 'Оставляйте машину на платных городских парковках и разрешенных местах, не нарушая ПДД, а также в аэропортах.',
-    image: 'img_1.png',
+    image: '1.jpg',
     active: true
   },
   {
     title: 'Страховка',
     descr: 'Полная страховка автомобиля.',
-    image: 'img_2.png',
+    image: '2.jpg',
     active: false
   },
   {
     title: 'Бензин',
     descr: 'Полный бак на любой заправке города за наш счёт.',
-    image: 'img_3.png',
+    image: '3.jpg',
     active: false
   },
   {
     title: 'Обслуживание',
     descr: 'Автомобиль проходит еженедельное ТО.',
-    image: 'img_4.png',
+    image: '4.jpg',
     active: false
   },
 ]
