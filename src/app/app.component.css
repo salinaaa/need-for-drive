@@ -1,20 +1,17 @@
 .wrapper {
+    height: 100%;
     width: 100%;
     margin: auto;
     position: relative;
-  }
-  .header, .footer {
-    min-height: 130px;
   }
   .header {
     width: 100%;
     position: fixed;
     top: 0;
     z-index: 10;
-    
   }
   .main {
-    min-height: 1000px;
+    height: 100%;
     margin-left: 250px;
   }
   .content {
@@ -24,5 +21,18 @@
   .navigate {
     width: 250px;
     position: fixed;
-    min-height: 1000px;
+    height: 100%;
   }
+  .footer {
+    margin-left: 250px;
+    height: 10%;
+  }
+  .footerphone {
+    margin-right: 20px;
+    margin-top: 10px;
+    min-height: 50px;
+  }
+  .footercopyright {
+    margin-right: 20px;
+  }
+  
